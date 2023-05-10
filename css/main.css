@@ -1,33 +1,138 @@
 @charset "UTF-8";
 
-html{
+html {
     font-family: sans-serif;
 }
-h1, h2, h3, h4, h5, h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Oxygen", arial;
 }
-.top-header-logo{
+.button{
+    display: inline-block;
+    background-color: #58c4c4;
+    padding: .75em 1.5em;
+    border-radius: 0.3125em;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+.button:hover{
+    background-color:#37a0a0;
+}
+.top-header-logo {
     margin: .5em;
 }
-.top-header{
+
+.top-header {
     text-align: center;
     /* Imagem é um elemento de linha e o text align funciona aqui */
 }
-.top-nav{
+
+.top-nav {
     background-color: #612674;
     text-align: center;
 }
-.top-nav ul{
+
+.top-nav ul {
     margin: 0;
     padding: 0.5em 0;
     list-style: none;
 }
-.top-nav a{
+
+.top-nav a {
     color: white;
     text-decoration: none;
     padding: 1em;
     display: block;
 }
-.top-nav a:hover{
-   background-color: #7c3792;
+
+.top-nav a:hover {
+    background-color: #7c3792;
+}
+
+.top-content {
+    padding: 1em;
+    text-align: center;
+    background-color: #f6f6f6;
+
+}
+
+.top-content-title {
+    color: #612674;
+    font-size: 1.375em;
+    margin: 1.375em;
+    /* 22/16=1.375  O valor base do 1em é 16 então é nescessario dividir o valor em pixels que eu quero por 16 pra achar a quantidade certa em 1em*/
+}
+
+.top-content-subtitle {
+    color: #a87bb7;
+    font-size: 1em;
+    line-height: 1.3;
+}
+.middle-content{
+    padding: 2em;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+.middle-content-title{
+    font-size: 1.25em;
+    color: #652e78;
+    text-transform: uppercase;
+}
+.middle-content p{
+    line-height: 1.5;
+    color: #222;
+}
+.middle-content span[class^=icon]{
+    font-size: 3em;
+    color: #652e78;
+}
+.main-content{
+    padding: 2em;
+}
+.main-content p {
+    line-height: 1.5;
+}
+.main-content-article{
+    margin-bottom: 3.5em ;
+}
+.main-content-title{
+    letter-spacing: .2em;
+    font-size: 1.25em;
+    color: #652e78;
+    text-transform: uppercase;
+    
+}
+.hidden{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+}
+.final{
+    background-color: #25303e;
+    color: #83969f;
+    text-align: center;
+    padding-bottom: 2em;
+}
+.final-menushare{
+    background-color: #303d4c;
+    padding: .5em;
+}
+
+.final-menushare li{
+    display: inline-block;
+    margin: 0 1em;
+}
+.final-menushare a{
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
 }
