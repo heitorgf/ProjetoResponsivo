@@ -5,13 +5,16 @@
     <meta charset="utf-8">
     <title>Responsivo</title>
     <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="fonts/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
-        <img src="images/logo_mob.svg" alt="logotipo range hotels">
-        <nav>
+    <header class="top-header clearfix">
+        <img src="images/logo_mob.svg" alt="logotipo range hotels" class="top-header-logo">
+        <nav class="top-nav">
             <ul>
                 <li><a href="#">Home</a> </li>
                 <li><a href="#">Produtos</a> </li>
@@ -21,38 +24,44 @@
         </nav>
 
     </header>
-    <section>
-        <h1>A exciting new venture over the range</h1>
-        <h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+    <section class="top-content">
+        <div class="icon-play"><img src="images/icon_play.svg" alt=""></div>
+        <h1 class="top-content-title">A exciting new venture over the range</h1>
+        <h2 class="top-content-subtitle"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et
             dolore magna
             aliqua consectetur adipisicing elit.</h2>
-        <a href="#"> Get Started</a>
+        <a href="#" class="button"> Get Started</a>
     </section>
-    <section>
-        <article>
-            <h3>Designer Guff</h3>
+    <section class="middle-content row">
+        <article class="col-1-4">
+            <span class="icon-stopwatch"></span>
+            <h3 class="middle-content-title">Designer Guff</h3>
             <p> Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
                 aute irure
                 dolor in reprehenderit in voluptate velit esse cillum
             </p>
         </article>
-        <article>
-            <h3> Detaild Stats</h3>
+        <article class="col-1-4">
+            <span class="icon-stats-bars2"></span>
+            <h3 class="middle-content-title"> Detaild Stats</h3>
             <p> Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
                 aute irure
                 dolor in reprehenderit in voluptate velit esse cillum
             </p>
         </article>
-        <article>
-            <h3>
+        <article class="col-1-4">
+            <span class="icon-clock"></span>
+            <h3 class="middle-content-title">
                 Dashboard</h3>
             <p> Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
                 aute irure
                 dolor in reprehenderit in voluptate velit esse cillum
             </p>
         </article>
-        <article>
-            <h3>
+        <article class="col-1-4">
+            <span class="icon-cog"></span>
+            <h3 class="middle-content-title">
                 Development</h3>
             <p> Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
                 aute irure
@@ -60,9 +69,9 @@
             </p>
         </article>
     </section>
-    <section>
-        <article>
-            <h3>
+    <section class="main-content row">
+        <article class="main-content-article col-1-2">
+            <h3 class="main-content-title">
                 Designg Heading
             </h3>
             <p> Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
@@ -70,8 +79,8 @@
                 dolor in reprehenderit in voluptate velit esse cillum
             </p>
         </article>
-        <article>
-            <h3>
+        <article class="main-content-article col-1-2">
+            <h3 class="main-content-title">
                 Designg Trends
             </h3>
             <p> Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
@@ -79,45 +88,47 @@
                 dolor in reprehenderit in voluptate velit esse cillum
             </p>
         </article>
-        <article>
-            <h3>
+        <article class="main-content-article clearfix col-1-2">
+            <h3 class="main-content-title">
 
                 Designg Users
             </h3>
             <p> Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
                 aute irure
                 dolor in reprehenderit in voluptate velit esse cillum
-                <a href="#"> Get Started</a>
             </p>
+            <a href="#" class="button"> Get Started</a>
         </article>
-        <article>
-            <h3>
+        <article class="main-content-article clearfix col-1-2">
+            <h3 class="main-content-title">
 
                 Designg Goals
             </h3>
             <p> Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
                 aute irure
                 dolor in reprehenderit in voluptate velit esse cillum
-                <a href="#"> Buy Now
-                </a>
+               
             </p>
+            <a href="#" class="button"> Buy Now
+            </a>
         </article>
 
     </section>
 
- <footer>
-    <ul>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Google+</a></li>
-    </ul>
-    <p>
-        Copyright The Range</p>
+    <footer class="final">
+        <ul class="final-menushare">
+            <li><a href="#" class="icon-facebook"><span class="hidden">Facebook</span></a></li>
+            <li><a href="#" class="icon-twitter"><span class="hidden">Twitter</span></a></li>
+            <li><a href="#" class="icon-google-plus"><span class="hidden">Google+</span></a></li>
+        </ul>
         <p>
-            Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            Copyright The Range</p>
+        <p>
+            Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure
             dolor in reprehenderit in voluptate velit esse cillum
         </p>
- </footer>
+    </footer>
 
 
 
